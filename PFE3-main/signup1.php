@@ -28,17 +28,17 @@
           <!-- Input for Phone Number -->
           <div class="input-box">
             <span class="details">Phone Number</span>
-            <input type="text" placeholder="Enter your number" required>
+            <input type="number" placeholder="Enter your number" required>
           </div>
           <!-- Input for Password -->
           <div class="input-box">
             <span class="details">Password</span>
-            <input type="text" placeholder="Enter your password" required>
+            <input type="password" placeholder="Enter your password" required>
           </div>
           <!-- Input for Confirm Password -->
           <div class="input-box">
             <span class="details">Confirm Password</span>
-            <input type="text" placeholder="Confirm your password" required>
+            <input type="password" placeholder="Confirm your password" required>
           </div>
         </div>
         <div class="gender-details">

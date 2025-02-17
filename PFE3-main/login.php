@@ -15,7 +15,7 @@
   <body>
     <div class="container" id="container">
       <div class="form-container sign-up">
-        <form>
+        <form action="signup1.php" method="get">
           <h1>Create Account</h1>
           <div class="social-icons">
             <a href="#" class="icon"
@@ -31,7 +31,7 @@
         </form>
       </div>
       <div class="form-container sign-in">
-        <form>
+        <form action="index.html" method="get">
           <h1>Sign In</h1>
           <div class="social-icons">
             <a href="#" class="icon"
