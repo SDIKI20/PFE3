@@ -12,7 +12,7 @@
     <div class="title">Registration</div>
     <div class="content">
       <!-- Registration form -->
-      <form action="#">
+      <form action="index.html" method="get">
         <div class="user-details">
           <!-- Input for Full Name -->
           <div class="input-box">
@@ -24,11 +24,7 @@
             <span class="details">Username</span>
             <input type="text" placeholder="Enter your username" required>
           </div>
-          <!-- Input for Email -->
-          <div class="input-box">
-            <span class="details">Email</span>
-            <input type="text" placeholder="Enter your email" required>
-          </div>
+        
           <!-- Input for Phone Number -->
           <div class="input-box">
             <span class="details">Phone Number</span>
@@ -49,7 +45,6 @@
           <!-- Radio buttons for gender selection -->
           <input type="radio" name="gender" id="dot-1">
           <input type="radio" name="gender" id="dot-2">
-          <input type="radio" name="gender" id="dot-3">
           <span class="gender-title">Gender</span>
           <div class="category">
             <!-- Label for Male -->
@@ -62,11 +57,7 @@
               <span class="dot two"></span>
               <span class="gender">Female</span>
             </label>
-            <!-- Label for Prefer not to say -->
-            <label for="dot-3">
-              <span class="dot three"></span>
-              <span class="gender">Prefer not to say</span>
-            </label>
+          
           </div>
         </div>
         <!-- Submit button -->
