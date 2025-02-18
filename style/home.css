@@ -77,7 +77,7 @@
   height: auto;
   top: 40%;
   left: 60%;
-  transform: translate(-50%, -50%) ;
+  transform: translate(-50%, -50%);
 }
 
 .cars-logo{
@@ -93,9 +93,35 @@
   transform: translateY(-75%);
   height: auto;
   width: 50vw;
+  animation: car 1.5s ease-in infinite;
+}
+
+@keyframes wheel {
+  0%{
+    transform: rotateZ(0deg);
+  }
+  50%{
+    transform: rotateZ(-360deg);
+  }
+  100%{
+    transform: rotateZ(-360deg);
+  }
+}
+
+@keyframes car {
+  0%{
+    left: 100%;
+  }
+  50%{
+    left: 30%;
+  }
+  100%{
+    left: 30%;
+  }
 }
 
 #wheel{
   transform-origin: 50% 50%;
   transform-box: fill-box;
+  animation: wheel 1.5s ease-in-out infinite;
 }
